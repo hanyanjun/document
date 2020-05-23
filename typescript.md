@@ -34,3 +34,19 @@ preverences -> setting  -> save -> Format On Save
   > typescript 对 ts 文件进行编辑；
   > 转化为 js 文件 ；
   > 编译成 node 可运行或者浏览器运行的文件；
+
+> 类型注解 ： 告诉 ts 变量是什么类型；  
+> 类型推断 ： ts 会自动去尝试分析变量的类型；
+
+```
+<!-- 不需要类型注解 -->
+const firstNumber = 1;
+const secondNumber = 2;
+const total =  firstNumber + secondNumber;
+
+<!-- 需要类型注解 -->
+function getTotal(firstNumber,secondNumber){
+  return firstNumber + secondNumber;
+}
+const total = getTotal(1,2);
+```
