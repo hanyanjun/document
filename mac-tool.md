@@ -1,0 +1,2 @@
+- alfred 
+- oh-my-zsh
